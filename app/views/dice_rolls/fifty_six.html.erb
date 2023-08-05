@@ -7,11 +7,9 @@
   <body>
     <h1>50d6</h1>
 
-    <li><%= @roll_one %></li>
-    <li><%= @roll_two %></li>
-    <li><%= @roll_three %></li>
-    <li><%= @roll_four %></li>
-    <li><%= @roll_five %></li>
+    <%= 50.times do %>
+      <li><%= @one_roll %></li>
+    <%= end %>
 
   </body>
 </html>
