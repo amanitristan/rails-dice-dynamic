@@ -45,6 +45,8 @@ class DiceController < ApplicationController
   end
 
   def game_five
+    @one_roll = rand(1..6)
+
     render({ template: "dice_rolls/fifty_six" })
   end
 
