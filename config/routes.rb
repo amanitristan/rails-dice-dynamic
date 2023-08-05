@@ -9,4 +9,6 @@ Rails.application.routes.draw do
 
   get("/dice/5/4", { controller: "dice", action: "game_four" })
 
+  get("/dice/50/6", { controller: "dice", action: "game_five" })
+
 end
